@@ -1,7 +1,7 @@
 //REQUEST JS
 
 var articlesRequest = new XMLHttpRequest(); //Create articlesRequestRequest object
-var articlesUrl = "https://s3.eu-west-2.amazonaws.com/enfo-test-resources/api/articles.json?action=query&format=json&orderby=key&origin=*"; //Get JSON articles
+var articlesUrl = "https://saurav.tech/NewsAPI/everything/cnn.json"; //Get JSON articles
 
 articlesRequest.onreadystatechange = function() { //Function that executes on status change for the "xhttp" object
   if (this.readyState == 4 && this.status == 200) { //If readyState is 4 (DONE) & status property is 200 (OK) https://developer.mozilla.org/en-US/docs/Web/HTTP/Status

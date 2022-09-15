@@ -1,0 +1,19 @@
+{
+  "name": "google-news",
+  "version": "1.0.0",
+  "description": "Simple application that calls news from a API via JavaScript.\r It's responsive and includes a JS built search funtionality.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mneenz/google-news.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mneenz/google-news/issues"
+  },
+  "homepage": "https://github.com/mneenz/google-news#readme"
+}
